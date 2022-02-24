@@ -6,7 +6,7 @@ services:
       - "8085:8080"
     volumes:
       - type: bind
-        source: /xxx/
+        source: C:/Users/Jeerasak/OneDrive/Documents/GitHub/DevOp/lab12-automated/automate-test-frontend/xxx/
         target: /data
   frontend:
     image: mikevasaski/anyname
