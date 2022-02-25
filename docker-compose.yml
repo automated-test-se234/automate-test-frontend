@@ -1,9 +1,14 @@
 version: '3.3'
 services:
   backend:
-    image: dto80/234-lab11
+    image: dto80/234-lab11:latest
     ports:
       - "8085:8080"
+    volumes:
+      - type: bind
+        source: C:/Users/Jeerasak/OneDrive/Documents/GitHub/DevOp/lab12-automated/automate-test-frontend/xxx/
+        target: /data
+        
   frontend:
     image: mikevasaski/anyname
     ports:
