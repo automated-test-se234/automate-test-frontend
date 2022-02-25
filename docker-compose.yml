@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   backend:
-    image: dto80/234-lab11:latest
+    image: dto80/234-lab11
     ports:
       - "8085:8080"
   frontend:
